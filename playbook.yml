@@ -1,6 +1,7 @@
 ---
 - name: Test
   hosts: localhost
+  remote_user: abraham # Remote user
   gather_facts: true
  
   tasks:
