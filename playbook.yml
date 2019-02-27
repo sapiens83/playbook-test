@@ -2,7 +2,7 @@
 - name: Test
   hosts: 172.20.160.47
   remote_user: abraham # Remote user
-  become: true
+
  
  
   tasks:
