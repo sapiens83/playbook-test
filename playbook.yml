@@ -1,6 +1,6 @@
 ---
 - name: Test
-  hosts: 172.20.160.47
+  hosts: 127.0.0.1
   remote_user: abraham # Remote user
   gather_facts: true
  
