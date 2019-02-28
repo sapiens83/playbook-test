@@ -3,24 +3,7 @@
   hosts: test-hosts
   remote_user: abraham # Remote user
 
- 
-  vars:
-    directory: /tmp
   tasks:
-  
-  - name: ping1
-    ping:
-  
-  - command: "ls {{directory}}"
-    register: dir_out
-
-  - debug: var={{item}}
-    with_items: dir_out.stdout_lines
-    
-  - name: ls to remote folder
-    command: ls /home/abraham/php-ngix-mysql-compose/container-php/
-    
-  
 
   - name: copy new php files
     copy:
