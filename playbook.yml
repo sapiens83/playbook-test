@@ -4,8 +4,8 @@
   remote_user: abraham # Remote user
 
  
-vars:
-  directory: resource-ansible-yml/
+  vars:
+    directory: resource-ansible-yml/
   tasks:
   
   - name: ping1
