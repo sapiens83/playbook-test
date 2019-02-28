@@ -1,6 +1,6 @@
 ---
 - name: Test
-  hosts: 127.0.0.1
+  hosts: 174.20.160.47
   remote_user: abraham # Remote user
 
  
