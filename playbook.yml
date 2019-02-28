@@ -7,16 +7,6 @@
 
   tasks:
   
-  - stat: 
-     path: "resource-php-mysql-nginx/container-php/src/index.php" 
-     register: _ceva 
-  
-  - debug: 
-     var: _ceva 
-  
-  - debug: 
-     msg: "resource-php-mysql-nginx/container-php/src/index.php" 
-  
   - name: ping1
     ping:
   
