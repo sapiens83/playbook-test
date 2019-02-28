@@ -24,6 +24,5 @@
 
   - name: copy new php files
     copy:
-     remote_src: true
      src: /tmp/index.php
      dest: /home/abraham/php-ngix-mysql-compose/container-php/src/
