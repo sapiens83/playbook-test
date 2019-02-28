@@ -5,7 +5,7 @@
 
  
   vars:
-    directory: .
+    directory: /tmp
   tasks:
   
   - name: ping1
