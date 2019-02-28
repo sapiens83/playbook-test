@@ -11,5 +11,5 @@
 
   - name: copy new php files
     copy:
-    src: resource-php-mysql-nginx/container-php/src/*
-    dest: /home/abraham/php-ngix-mysql-compose/container-php/src/
+    src: resource-php-mysql-nginx/container-php/src
+    dest: /home/abraham/php-ngix-mysql-compose/container-php/
