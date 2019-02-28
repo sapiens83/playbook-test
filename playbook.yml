@@ -4,13 +4,24 @@
   remote_user: abraham # Remote user
 
  
- 
+
   tasks:
+  
+  - stat: 
+     path: "{{ deploy_path }}/resource-php-mysql-nginx/container-php/src/index.php" 
+     register: _ceva 
+  
+  - debug: var: _ceva 
+  
+  - debug: msg: "{{ deploy_path }}/resource-php-mysql-nginx/container-php/src/index.php" 
+  
   - name: ping1
     ping:
   
   - name: ls to remote folder
     command: ls /home/abraham/php-ngix-mysql-compose/container-php/
+    
+  
 
   - name: copy new php files
     copy:
