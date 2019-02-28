@@ -5,7 +5,7 @@
 
  
   vars:
-    directory: resource-ansible-yml/
+    directory: .
   tasks:
   
   - name: ping1
