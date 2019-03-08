@@ -1,7 +1,7 @@
 ---
 - name: Test
   hosts: test-hosts
-  remote_user: abraham # Remote user
+  
 
   tasks:
   
@@ -9,4 +9,4 @@
   - name: copy new php files
     copy:
      src: /tmp/index.php
-     dest: /home/abraham/php-ngix-mysql-compose/container-php/src/
+     dest: /tmp/php-mysql-nginx/container-php/src/
