@@ -1,5 +1,8 @@
-ansible_ssh_host: 172.20.160.47
+ansible_ssh_host: ec2-18-234-190-136.compute-1.amazonaws.com
 ansible_ssh_port: 22
-ansible_ssh_user: abraham
-#ansible_ssh_pass: Yomero83$
-#ansible_ssh_private_key_file: /home/rahul/.ssh/aws.pem
+ansible_ssh_user: deploy
+ansible_python_interpreter: "{{ ansible_playbook_python }}"
+ansible_ssh_private_key_file: resource-ansible-config/.ssh/ec2-deploy-user.pem
+remote_user: deploy
+docker_group: docker
+

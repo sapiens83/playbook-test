@@ -1,0 +1,8 @@
+---
+    - name: ensure package cache is up to date
+      ping: 
+    - name: Update apt packages
+      apt:
+        update_cache: yes
+      tags:
+        - system
