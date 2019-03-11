@@ -1,4 +1,4 @@
-ansible_ssh_host: ec2-18-234-190-136.compute-1.amazonaws.com
+ansible_ssh_host: ec2-3-87-225-193.compute-1.amazonaws.com
 ansible_ssh_port: 22
 ansible_ssh_user: deploy
 ansible_python_interpreter: "{{ ansible_playbook_python }}"
