@@ -1,6 +1,7 @@
 ---
 - name: Test
   hosts: test-hosts
+  gather_facts: False
   
 
   tasks:
